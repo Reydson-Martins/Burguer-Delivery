@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Burguer Delivery
 
-## Getting Started
+![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-First, run the development server:
+<img src="burguer-delivery.png" alt="Exemplo imagem">
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Aplicação para gerenciar um carrinho de compras de uma hamburgueria fictícia, que contém as seguintes funcionalidades:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Listagem de produtos disponíveis para compra
+- Adicionar uma quantidade específicas de itens no carrinho
+- Aumentar ou remover a quantidade de itens no carrinho
+- Formulário para o usuário preencher o seu endereço
+- Exibir o total de itens no carrinho no Header
+- Exibir o valor total da soma de itens no carrinho multiplicados pelo valor
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Ajustes e melhorias
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-## Learn More
+- [x] Layout Figma
+- [] Home Page
+- [] Page de Checkout - Endereço
+- [] Page de Checkout - Pagamento
+- [] Page Success - Rota de Entrega
+- [ ] API de Cep para autocompletar o formulário de entrega.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Reydson Martins
