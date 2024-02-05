@@ -1,10 +1,10 @@
 import Image from "next/image";
-import logo from '../../../../public/logo.svg'
+import logo from '@/assets/logo.svg'
 import { MapPin, ShoppingCart } from "lucide-react";
 
 export function Header(){
   return(
-    <div className="bg-header border-b-2 border-zinc-200 ">
+    <div className="bg-background border-b-2 border-zinc-200 ">
     <header className="container flex items-center justify-between  h-20  ">
       <Image src={logo} alt="" height={46}/>
       <div className="flex gap-3">
